@@ -1,0 +1,2151 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DeepSeek Harness Plugin Index (community-hosted)",
+    "zh": "DeepSeek Harness 插件索引（社区托管）"
+  },
+  "description": {
+    "en": "Official @deepseek-ai plugin packages for DeepSeek Harness, listed by an independent community index.",
+    "zh": "DeepSeek Harness 官方 @deepseek-ai 插件包，由独立社区索引收录。"
+  },
+  "metadata": {
+    "categories": {
+      "subagent": {
+        "title": {
+          "en": "Subagents",
+          "zh": "子代理"
+        }
+      },
+      "team": {
+        "title": {
+          "en": "Team Collaboration",
+          "zh": "团队协作"
+        }
+      },
+      "ui": {
+        "title": {
+          "en": "Interface & Experience",
+          "zh": "界面与体验"
+        }
+      },
+      "tools": {
+        "title": {
+          "en": "Developer Tools",
+          "zh": "开发工具"
+        }
+      },
+      "automation": {
+        "title": {
+          "en": "Automation",
+          "zh": "自动化"
+        }
+      }
+    },
+    "labels": {
+      "official": {
+        "title": {
+          "en": "Official",
+          "zh": "官方"
+        }
+      },
+      "experimental": {
+        "title": {
+          "en": "Experimental",
+          "zh": "实验性"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "@deepseek-ai/dsh-experimental-agent-team-profile",
+      "title": {
+        "en": "Agent Teams",
+        "zh": "Agent 团队"
+      },
+      "description": {
+        "en": "Experimental profile bundle enabling Agent Teams over dsh-base.",
+        "zh": "实验性 bundle：在 dsh-base 上启用 Agent Teams 多智能体团队协作。"
+      },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness#readme",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "directory": "packages/experimental/agent-team-profile"
+      },
+      "metadata": {
+        "category": "team",
+        "keywords": [
+          "team",
+          "multi-agent",
+          "collaboration"
+        ],
+        "labels": [
+          "experimental"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.1-rc.3",
+          "publishTimestamp": 1792741520,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.2",
+          "publishTimestamp": 1792225596,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.1",
+          "publishTimestamp": 1792206832,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.5",
+          "publishTimestamp": 1792153245,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.4",
+          "publishTimestamp": 1792068980,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.3",
+          "publishTimestamp": 1791980779,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.2",
+          "publishTimestamp": 1791533756,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.1",
+          "publishTimestamp": 1791002751,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.0-rc.2",
+          "publishTimestamp": 1790675299,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.0-rc.1",
+          "publishTimestamp": 1790598328,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-rc.2",
+          "publishTimestamp": 1790259008,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-rc.1",
+          "publishTimestamp": 1790170540,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-alpha.2",
+          "publishTimestamp": 1790092934,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-alpha.1",
+          "publishTimestamp": 1790057708,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.5-rc.3",
+          "publishTimestamp": 1790056431,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.6-alpha.2",
+          "publishTimestamp": 1789652781,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.6-alpha.1",
+          "publishTimestamp": 1789442833,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.5-rc.2",
+          "publishTimestamp": 1789052336,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.5-rc.1",
+          "publishTimestamp": 1789010073,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.5-alpha.2",
+          "publishTimestamp": 1788964930,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-auto-review",
+      "title": {
+        "en": "Auto Review",
+        "zh": "自动审查"
+      },
+      "description": {
+        "en": "Per-tool LLM authorization review for the Auto permission preset.",
+        "zh": "为 Auto 权限预设提供逐工具 LLM 授权审查。"
+      },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness#readme",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "directory": "packages/experimental/auto-review"
+      },
+      "metadata": {
+        "category": "automation",
+        "keywords": [
+          "review",
+          "permissions",
+          "approval",
+          "llm"
+        ],
+        "labels": [
+          "experimental"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.1-rc.3",
+          "publishTimestamp": 1792741494,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.2",
+          "publishTimestamp": 1792225621,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.1",
+          "publishTimestamp": 1792206461,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.5",
+          "publishTimestamp": 1792153250,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.4",
+          "publishTimestamp": 1792068912,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.3",
+          "publishTimestamp": 1791980782,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.2",
+          "publishTimestamp": 1791533365,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.1",
+          "publishTimestamp": 1791002827,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.0-rc.2",
+          "publishTimestamp": 1790675324,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.0-rc.1",
+          "publishTimestamp": 1790598568,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-rc.2",
+          "publishTimestamp": 1790259013,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-rc.1",
+          "publishTimestamp": 1790171014,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-alpha.2",
+          "publishTimestamp": 1790093478,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-alpha.1",
+          "publishTimestamp": 1790058142,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.6-alpha.2",
+          "publishTimestamp": 1789653423,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.6-alpha.1",
+          "publishTimestamp": 1789442657,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-badge-skill-bundle",
+      "title": {
+        "en": "Powered-by-DSH Badge",
+        "zh": "DSH 徽章"
+      },
+      "description": {
+        "en": "Offer the powered-by-DSH badge as a discoverable skill.",
+        "zh": "把 powered-by-DSH 徽章作为可发现的技能提供。"
+      },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness#readme",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "directory": "packages/experimental/badge-skill-bundle"
+      },
+      "metadata": {
+        "category": "ui",
+        "keywords": [
+          "badge",
+          "skill",
+          "attribution"
+        ],
+        "labels": [
+          "experimental"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.1-rc.3",
+          "publishTimestamp": 1792741460,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.2",
+          "publishTimestamp": 1792225650,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.1",
+          "publishTimestamp": 1792206470,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.5",
+          "publishTimestamp": 1792153280,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.4",
+          "publishTimestamp": 1792069057,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.3",
+          "publishTimestamp": 1791980987,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.2",
+          "publishTimestamp": 1791533406,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.0-stage",
+          "publishTimestamp": 1791533277,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-cot-translation-bundle",
+      "title": {
+        "en": "CoT Translation",
+        "zh": "思考链翻译"
+      },
+      "description": {
+        "en": "Experimental machine translation of expanded reasoning.",
+        "zh": "实验性：对展开的推理（CoT）做机器翻译。"
+      },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness#readme",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "directory": "packages/experimental/cot-translation-bundle"
+      },
+      "metadata": {
+        "category": "ui",
+        "keywords": [
+          "translation",
+          "reasoning",
+          "cot"
+        ],
+        "labels": [
+          "experimental"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.1-rc.3",
+          "publishTimestamp": 1792741513,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.2",
+          "publishTimestamp": 1792225642,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.1",
+          "publishTimestamp": 1792206483,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.5",
+          "publishTimestamp": 1792153252,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.4",
+          "publishTimestamp": 1792069012,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.3",
+          "publishTimestamp": 1791980830,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.2",
+          "publishTimestamp": 1791533366,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.0-stage",
+          "publishTimestamp": 1791533291,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-inspector-profile",
+      "title": {
+        "en": "Inspector",
+        "zh": "检查器"
+      },
+      "description": {
+        "en": "Optional Web bundle for raw Session logs and Chat node inspection.",
+        "zh": "可选 Web bundle：查看原始会话日志与 Chat 节点。"
+      },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness#readme",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "directory": "packages/experimental/inspector-profile"
+      },
+      "metadata": {
+        "category": "tools",
+        "keywords": [
+          "inspector",
+          "logs",
+          "debug"
+        ],
+        "labels": [
+          "experimental"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.1-rc.3",
+          "publishTimestamp": 1792741486,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.2",
+          "publishTimestamp": 1792225678,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.1",
+          "publishTimestamp": 1792206499,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.5",
+          "publishTimestamp": 1792153603,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.4",
+          "publishTimestamp": 1792068954,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.3",
+          "publishTimestamp": 1791980837,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.2",
+          "publishTimestamp": 1791533365,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.1",
+          "publishTimestamp": 1791002719,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-plugin-market-bundle",
+      "title": {
+        "en": "Plugin Market (Discover)",
+        "zh": "插件市场（发现）"
+      },
+      "description": {
+        "en": "Experimental custom plugin markets: a Discover tab that browses and installs bundles from plugin market indexes.",
+        "zh": "实验性自定义插件市场：Discover 标签页，浏览并安装索引源中的 bundle。"
+      },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness#readme",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "directory": "packages/experimental/plugin-market-bundle"
+      },
+      "metadata": {
+        "category": "ui",
+        "keywords": [
+          "market",
+          "discover",
+          "index"
+        ],
+        "labels": [
+          "experimental"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.1-rc.3",
+          "publishTimestamp": 1792741522,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.2",
+          "publishTimestamp": 1792225654,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.1",
+          "publishTimestamp": 1792206649,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.5",
+          "publishTimestamp": 1792153378,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.4",
+          "publishTimestamp": 1792068981,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.0-stage",
+          "publishTimestamp": 1792068923,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-ralph-bundle",
+      "title": {
+        "en": "Ralph",
+        "zh": "Ralph"
+      },
+      "description": {
+        "en": "Run explicitly requested repeated work with fresh agents.",
+        "zh": "用全新 agent 循环执行明确要求的重复工作。"
+      },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness#readme",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "directory": "packages/experimental/ralph-bundle"
+      },
+      "metadata": {
+        "category": "automation",
+        "keywords": [
+          "loop",
+          "fresh-agent",
+          "iteration"
+        ],
+        "labels": [
+          "experimental"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.1-rc.3",
+          "publishTimestamp": 1792741552,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.2",
+          "publishTimestamp": 1792225703,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.1",
+          "publishTimestamp": 1792206526,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.5",
+          "publishTimestamp": 1792153387,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.4",
+          "publishTimestamp": 1792069090,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.3",
+          "publishTimestamp": 1791980977,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.2",
+          "publishTimestamp": 1791533566,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.0-stage",
+          "publishTimestamp": 1791533318,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-session-search",
+      "title": {
+        "en": "Session Search",
+        "zh": "会话搜索"
+      },
+      "description": {
+        "en": "Give Agents tools to search and read earlier sessions from the current workspace.",
+        "zh": "给 Agent 提供搜索和读取当前工作区历史会话的工具。"
+      },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness#readme",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "directory": "packages/experimental/session-search"
+      },
+      "metadata": {
+        "category": "tools",
+        "keywords": [
+          "session",
+          "search",
+          "history"
+        ],
+        "labels": [
+          "experimental"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.1-rc.3",
+          "publishTimestamp": 1792741567,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.2",
+          "publishTimestamp": 1792225671,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.1",
+          "publishTimestamp": 1792206533,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.5",
+          "publishTimestamp": 1792153457,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.4",
+          "publishTimestamp": 1792068996,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.3",
+          "publishTimestamp": 1791980926,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.2",
+          "publishTimestamp": 1791533453,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.0-stage",
+          "publishTimestamp": 1791533326,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-session-titles-bundle",
+      "title": {
+        "en": "Session Titles",
+        "zh": "会话标题"
+      },
+      "description": {
+        "en": "Refresh session titles as new human prompts arrive.",
+        "zh": "新消息到来时自动刷新会话标题。"
+      },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness#readme",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "directory": "packages/experimental/session-titles-bundle"
+      },
+      "metadata": {
+        "category": "ui",
+        "keywords": [
+          "session",
+          "titles"
+        ],
+        "labels": [
+          "experimental"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.1-rc.3",
+          "publishTimestamp": 1792741526,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.2",
+          "publishTimestamp": 1792225700,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.1",
+          "publishTimestamp": 1792206542,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.5",
+          "publishTimestamp": 1792153353,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.4",
+          "publishTimestamp": 1792069047,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.3",
+          "publishTimestamp": 1791980841,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.2",
+          "publishTimestamp": 1791533390,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.0-stage",
+          "publishTimestamp": 1791533335,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-terminal-bundle",
+      "title": {
+        "en": "Persistent Terminal",
+        "zh": "持久终端"
+      },
+      "description": {
+        "en": "Keep shell processes alive across tool calls.",
+        "zh": "让 shell 进程跨工具调用保持存活。"
+      },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness#readme",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "directory": "packages/experimental/terminal-bundle"
+      },
+      "metadata": {
+        "category": "tools",
+        "keywords": [
+          "terminal",
+          "shell",
+          "persistent"
+        ],
+        "labels": [
+          "experimental"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.1-rc.3",
+          "publishTimestamp": 1792741539,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.2",
+          "publishTimestamp": 1792225716,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.1",
+          "publishTimestamp": 1792206537,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.5",
+          "publishTimestamp": 1792153349,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.4",
+          "publishTimestamp": 1792069157,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.3",
+          "publishTimestamp": 1791980880,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.2",
+          "publishTimestamp": 1791533478,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.0-stage",
+          "publishTimestamp": 1791533350,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-tool-worktree",
+      "title": {
+        "en": "Git Worktree Tool",
+        "zh": "Git Worktree 工具"
+      },
+      "description": {
+        "en": "Model tool that creates and enters a new Git worktree.",
+        "zh": "模型工具：创建并进入新的 Git worktree。"
+      },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness#readme",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "directory": "packages/experimental/tool-worktree"
+      },
+      "metadata": {
+        "category": "tools",
+        "keywords": [
+          "git",
+          "worktree",
+          "branch"
+        ],
+        "labels": [
+          "experimental"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.1-rc.3",
+          "publishTimestamp": 1792741651,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.2",
+          "publishTimestamp": 1792225725,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.1",
+          "publishTimestamp": 1792206546,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.5",
+          "publishTimestamp": 1792153399,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.4",
+          "publishTimestamp": 1792069056,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.3",
+          "publishTimestamp": 1791980890,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.2",
+          "publishTimestamp": 1791533436,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.0-stage",
+          "publishTimestamp": 1791533359,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-experimental-voice-input-bundle",
+      "title": {
+        "en": "Voice Input",
+        "zh": "语音输入"
+      },
+      "description": {
+        "en": "Experimental voice input with local SenseVoice; downloads its runtime on first use.",
+        "zh": "实验性语音输入（本地 SenseVoice），首次使用时下载运行时。"
+      },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness#readme",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "directory": "packages/experimental/voice-input-bundle"
+      },
+      "metadata": {
+        "category": "ui",
+        "keywords": [
+          "voice",
+          "speech",
+          "input"
+        ],
+        "labels": [
+          "experimental"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.1-rc.3",
+          "publishTimestamp": 1792741592,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.2",
+          "publishTimestamp": 1792225726,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.1",
+          "publishTimestamp": 1792206608,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.5",
+          "publishTimestamp": 1792153379,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.4",
+          "publishTimestamp": 1792069097,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.3",
+          "publishTimestamp": 1791981028,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.2",
+          "publishTimestamp": 1791533548,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.1",
+          "publishTimestamp": 1791002802,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.0-rc.2",
+          "publishTimestamp": 1790675422,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.0-rc.1",
+          "publishTimestamp": 1790598403,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-rc.2",
+          "publishTimestamp": 1790259014,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-rc.1",
+          "publishTimestamp": 1790170595,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-alpha.2",
+          "publishTimestamp": 1790092974,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-alpha.1",
+          "publishTimestamp": 1790057684,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-subagent-claude-code",
+      "title": {
+        "en": "Claude Code Subagent",
+        "zh": "Claude Code 子代理"
+      },
+      "description": {
+        "en": "One-shot Claude Code subagent provider over the official Agent SDK.",
+        "zh": "通过官方 Agent SDK 调用一次性 Claude Code 子代理。"
+      },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness#readme",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "directory": "packages/subagent/subagent-claude-code"
+      },
+      "metadata": {
+        "category": "subagent",
+        "keywords": [
+          "claude",
+          "subagent",
+          "delegation",
+          "sdk"
+        ],
+        "labels": [
+          "official"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.1-rc.3",
+          "publishTimestamp": 1792741673,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.2",
+          "publishTimestamp": 1792225825,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.1",
+          "publishTimestamp": 1792206650,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.5",
+          "publishTimestamp": 1792153537,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.4",
+          "publishTimestamp": 1792069141,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.3",
+          "publishTimestamp": 1791981053,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.2",
+          "publishTimestamp": 1791533522,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.1",
+          "publishTimestamp": 1791003392,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.0-rc.2",
+          "publishTimestamp": 1790675920,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.0-rc.1",
+          "publishTimestamp": 1790598942,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-rc.2",
+          "publishTimestamp": 1790259549,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-rc.1",
+          "publishTimestamp": 1790171152,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-alpha.2",
+          "publishTimestamp": 1790093729,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-alpha.1",
+          "publishTimestamp": 1790058318,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.5-rc.3",
+          "publishTimestamp": 1790056486,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.6-alpha.2",
+          "publishTimestamp": 1789653391,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.6-alpha.1",
+          "publishTimestamp": 1789442854,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.5-rc.2",
+          "publishTimestamp": 1789052421,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.5-rc.1",
+          "publishTimestamp": 1789010132,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.5-alpha.2",
+          "publishTimestamp": 1788965053,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.5-alpha.1",
+          "publishTimestamp": 1788883212,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.3-alpha.2",
+          "publishTimestamp": 1788787030,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.2-rc.1",
+          "publishTimestamp": 1788416593,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.2-alpha.5",
+          "publishTimestamp": 1788338399,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.2-alpha.4",
+          "publishTimestamp": 1788278571,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.2-alpha.3",
+          "publishTimestamp": 1788193340,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.2-alpha.2",
+          "publishTimestamp": 1788099144,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.1-rc.2",
+          "publishTimestamp": 1787316264,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.1-rc.1",
+          "publishTimestamp": 1787295085,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.0-rc.8",
+          "publishTimestamp": 1787154221,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.0-rc.7",
+          "publishTimestamp": 1786967587,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.0-rc.6",
+          "publishTimestamp": 1786624844,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.0-rc.3",
+          "publishTimestamp": 1786619980,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.0-rc.2",
+          "publishTimestamp": 1786614693,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.1-rc.5",
+          "publishTimestamp": 1786573838,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.1-rc.3",
+          "publishTimestamp": 1786566798,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.1-rc.2",
+          "publishTimestamp": 1786461505,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.1-rc.1",
+          "publishTimestamp": 1786390592,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-subagent-codex",
+      "title": {
+        "en": "Codex Subagent",
+        "zh": "Codex 子代理"
+      },
+      "description": {
+        "en": "One-shot Codex subagent provider over the official app-server protocol.",
+        "zh": "通过官方 app-server 协议调用一次性 Codex 子代理。"
+      },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness#readme",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "directory": "packages/subagent/subagent-codex"
+      },
+      "metadata": {
+        "category": "subagent",
+        "keywords": [
+          "codex",
+          "subagent",
+          "delegation",
+          "sdk"
+        ],
+        "labels": [
+          "official"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.1-rc.3",
+          "publishTimestamp": 1792741759,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.2",
+          "publishTimestamp": 1792225829,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.1",
+          "publishTimestamp": 1792206676,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.5",
+          "publishTimestamp": 1792153471,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.4",
+          "publishTimestamp": 1792069182,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.3",
+          "publishTimestamp": 1791980985,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.2",
+          "publishTimestamp": 1791533634,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.1",
+          "publishTimestamp": 1791003293,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.0-rc.2",
+          "publishTimestamp": 1790676049,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.0-rc.1",
+          "publishTimestamp": 1790599219,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-rc.2",
+          "publishTimestamp": 1790259603,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-rc.1",
+          "publishTimestamp": 1790171188,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-alpha.2",
+          "publishTimestamp": 1790093697,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-alpha.1",
+          "publishTimestamp": 1790058291,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.5-rc.3",
+          "publishTimestamp": 1790056491,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.6-alpha.2",
+          "publishTimestamp": 1789653299,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.6-alpha.1",
+          "publishTimestamp": 1789442763,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.5-rc.2",
+          "publishTimestamp": 1789052348,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.5-rc.1",
+          "publishTimestamp": 1789010081,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.5-alpha.2",
+          "publishTimestamp": 1788965002,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.5-alpha.1",
+          "publishTimestamp": 1788883141,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.3-alpha.2",
+          "publishTimestamp": 1788786786,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.2-rc.1",
+          "publishTimestamp": 1788416598,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.2-alpha.5",
+          "publishTimestamp": 1788338403,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.2-alpha.4",
+          "publishTimestamp": 1788278575,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.2-alpha.3",
+          "publishTimestamp": 1788193345,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.2-alpha.2",
+          "publishTimestamp": 1788099148,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.1-rc.2",
+          "publishTimestamp": 1787316268,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.1-rc.1",
+          "publishTimestamp": 1787295089,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.0-rc.8",
+          "publishTimestamp": 1787154226,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.0-rc.7",
+          "publishTimestamp": 1786967595,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.0-rc.6",
+          "publishTimestamp": 1786624853,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.0-rc.3",
+          "publishTimestamp": 1786619985,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.0-rc.2",
+          "publishTimestamp": 1786614697,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.1-rc.5",
+          "publishTimestamp": 1786573841,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.1-rc.3",
+          "publishTimestamp": 1786566802,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.1-rc.2",
+          "publishTimestamp": 1786461508,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.1-rc.1",
+          "publishTimestamp": 1786390595,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@deepseek-ai/dsh-tool-subagent",
+      "title": {
+        "en": "Subagent Tool",
+        "zh": "子代理工具"
+      },
+      "description": {
+        "en": "Model-facing subagent delegation tool over the ctx.subagents seam.",
+        "zh": "面向模型、基于 ctx.subagents 的子代理委派工具。"
+      },
+      "author": "DeepSeek",
+      "homepage": "https://github.com/deepseek-ai/deepseek-harness#readme",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness",
+        "directory": "packages/subagent/tool-subagent"
+      },
+      "metadata": {
+        "category": "subagent",
+        "keywords": [
+          "subagent",
+          "tool",
+          "delegation"
+        ],
+        "labels": [
+          "official"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.1-rc.3",
+          "publishTimestamp": 1792741390,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.2",
+          "publishTimestamp": 1792225514,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-rc.1",
+          "publishTimestamp": 1792206372,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.5",
+          "publishTimestamp": 1792153208,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.4",
+          "publishTimestamp": 1792068958,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.3",
+          "publishTimestamp": 1791980827,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.2",
+          "publishTimestamp": 1791533174,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.1-alpha.1",
+          "publishTimestamp": 1791002715,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.0-rc.2",
+          "publishTimestamp": 1790675185,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.2.0-rc.1",
+          "publishTimestamp": 1790598213,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-rc.2",
+          "publishTimestamp": 1790259013,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-rc.1",
+          "publishTimestamp": 1790170419,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-alpha.2",
+          "publishTimestamp": 1790092811,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.7-alpha.1",
+          "publishTimestamp": 1790057588,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.5-rc.3",
+          "publishTimestamp": 1790056058,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.6-alpha.2",
+          "publishTimestamp": 1789652696,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.6-alpha.1",
+          "publishTimestamp": 1789442224,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.5-rc.2",
+          "publishTimestamp": 1789051795,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.5-rc.1",
+          "publishTimestamp": 1789009554,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.5-alpha.2",
+          "publishTimestamp": 1788964413,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.5-alpha.1",
+          "publishTimestamp": 1788882618,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.3-alpha.2",
+          "publishTimestamp": 1788786282,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.2-rc.1",
+          "publishTimestamp": 1788416109,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.2-alpha.5",
+          "publishTimestamp": 1788337899,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.2-alpha.4",
+          "publishTimestamp": 1788278070,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.2-alpha.3",
+          "publishTimestamp": 1788192838,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.2-alpha.2",
+          "publishTimestamp": 1788098643,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.1-rc.2",
+          "publishTimestamp": 1787315839,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.1-rc.1",
+          "publishTimestamp": 1787294652,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.0-rc.8",
+          "publishTimestamp": 1787153771,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.0-rc.7",
+          "publishTimestamp": 1786967082,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.0-rc.6",
+          "publishTimestamp": 1786623611,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.0-rc.3",
+          "publishTimestamp": 1786619264,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.1.0-rc.2",
+          "publishTimestamp": 1786614026,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.1-rc.5",
+          "publishTimestamp": 1786573886,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.1-rc.3",
+          "publishTimestamp": 1786566854,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.1-rc.2",
+          "publishTimestamp": 1786461560,
+          "source": {
+            "type": "npm"
+          }
+        },
+        {
+          "version": "0.0.1-rc.1",
+          "publishTimestamp": 1786390638,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    }
+  ]
+}
